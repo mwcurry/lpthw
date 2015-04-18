@@ -1,0 +1,47 @@
+# First, go back through every exercise you have done so far and write down every word and symbol (another name for "character") that you have used. Make sure your list of symbols is complete.
+
+Next to each word or symbol, write its name and what it does. If you can't find a name for a symbol in this book, then look for it online. If you do not know what a word or symbol does, then read about it again and try using it in some code.
+
+Print - print command.  Script will show the quoted text that follows.
+# - Octothorpe, pound, hash. Pound tells python to ignore the text that comes after.  It's used to include notes in the script.
+% - Modulus. For division, it calculates the remainder.
+	Modulus. Inserts variables.
+Floating Point - number with a significant digit after the decimal.
+= - Equals. Assigns a name or value on the right to a variable on the left.
+== - double-equal. Tests if two variables have the same value.
+%r - formatter, format characters. Takes a variable and replaces itself with it.
+\n - newlines. Creates a linebreak in a string.
+\\, \', \" - Escape Sequences. Indicates to Python to include the subsequent letter as part of the string.
+""" - Triple quotes. Creates a section of text so you can include quotation marks without using escapes.
+Exercise 11
+raw_input() - Raw Input. Function takes an input and converts it into a string.
+input() - Input. Takes Python input.
+(prompt) - Prompt. Content of an input function is printed when inside input parenthesis.
+ex13.py - Argument. Filename of a script that is entered into the command line.
+FROM sys IMPORT argv - An import. Adds features to script from the Python feature set.
+argv - Argument variable. Holds arguments passed through script.
+sys - Module, libraries. Import code from existing modules.
+open() - open command. opens a file.
+'hard coding' - inputing some text/information directly into source code.
+. - Dot, period. Dot operator gives a file a command to perform with parameters.
+read() - read command. reads the contents of a file.
+close() - close command. closes a file.
+readline() - readline command - reads a single line of text (paramters would tell it which line to read)
+truncate() - truncate command. Empties a file.
+write() - write command. Writes the contents of the parenthesis into a file.
+os.path - Apple library location.
+exists - Exists command. Determines if a given file exists or not and returns 'True' or 'False'
+len() - length function. Gives the length, in a number, of the string you are passing through.
+def - define. Create a function.
+f - variable. Variable that stands in for a file.
+seek() - seek command. Parameter inside variables would be a number that corresponds to a byte in the file.
+head - read head. tells python where to start reading, begining.
+
+
+
+
+
+
+
+
+

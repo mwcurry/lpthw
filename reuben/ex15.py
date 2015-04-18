@@ -1,20 +1,15 @@
 from sys import argv
 #import an argument variable
+#module is pre-existing code
 
 script, filename = argv
-#assigns filename as the argument variable
+#this line creates two variables that will become argv
 
 txt = open(filename)
-#opens the argument variable
-#or does it define the txt function?
+#defining the variable txt as the result of opening filename
+#open is a function - opens whatever you type in the parenthesis
 
-print "Here's your file %r:" % filename
-#prints a message with a raw variable and pulls in the assigned argument variable
-
-print txt.read()
-#prints the imported script
-
-print "Type the filename again:"
+print "Type the filename for the first time:"
 #prints a message
 
 file_again = raw_input("> ")
