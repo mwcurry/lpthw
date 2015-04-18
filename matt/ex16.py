@@ -33,7 +33,7 @@ target.write(line3)
 target.write("\n")
 '''
 
-to_write = "%s\n%s\n%s\n" % (line1, line2, line3)
+to_write = "%s\n%s\n%s" % (line1, line2, line3)
 target.write(to_write)
 
 print "And finally, a close."
